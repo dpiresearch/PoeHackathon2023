@@ -15,6 +15,11 @@ Server subscription and startup from Modal, then you can use the bot at https://
 TwelveLabs can give you video snippets if you do a search using their UI, but at the moment, their API
 only gives you a jpg thumbnail.  Future iterations should have a url to a video snippet instead.
 
+Your bot may be nonfunctional until you update the bot settings.  See the instructions here https://developer.poe.com/server-bots/updating-bot-settings and specifically,
+execute this command: 
+
+curl -X POST https://api.poe.com/bot/fetch_settings/<botname>/<access_key>
+
 ## 
 This is the companion repository to the Poe server bot
 [quick start](https://developer.poe.com/server-bots/quick-start). Please follow that
