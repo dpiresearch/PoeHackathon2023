@@ -6,7 +6,7 @@ This code is mostly the quick start code from POE, modified for the hackathon.  
 answers questions about a particular domain ( in this case California DMV rules ) and also finds snippets
 of video showing the related situation from TwelveLabs.  
 
-## Requrements
+## Requirements
 
 Server subscription and startup from Modal, then you can use the bot at https://poe.com/Poe_AutoBot.  See the quick start guide below.
 
